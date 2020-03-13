@@ -8,6 +8,7 @@ const ContactForm = () => {
   });
   const onSubmit = data => {
     setData(data);
+    reset();
   };
 
   return (
